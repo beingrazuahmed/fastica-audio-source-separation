@@ -73,9 +73,15 @@ Open [`notebooks/FastICA_Audio_Source_Separation.ipynb`](notebooks/FastICA_Audio
 
 These results were obtained for the published **three original recordings**, fixed mixing design and **10 runs**, with BSS Eval alignment. They **must not be presented as results for custom or synthetic signals**. New audio, preprocessing, package versions, or algorithm settings may change the scores. The code and demo have been checked, but full ten-run original-paper numerical verification remains pending.
 
-## Research figures — upload pending
+## Research figures
 
-The figure directory has a [complete nine-figure inventory and attribution guide](figures/README.md), including the three original-to-aligned-output pairs (male + male, female + female, male + female), methodological flowchart, mixed-audio visualization and comparative performance results. The author-supplied nine TIFF masters have been inspected and converted to high-resolution PNG files, available in the separate figure-ready package. The **nine PNG images are still pending upload to this GitHub directory**; the code, captions and manifest are already public. Once the PNGs are committed, selected visuals can be embedded in this README and the [portfolio showcase](https://beingrazuahmed.github.io/projects.html#fastica-audio-project).
+The author supplied all nine TIFF masters, and each has been converted into a browser-compatible PNG while preserving the original scientific graphics.
+
+**Figure 9 — FastICA, PCA and NMF performance (uploaded)**
+
+![Figure 9: BSS metrics across FastICA, PCA and NMF](figures/fig09-bss-comparison.png)
+
+**Figures 1–8 — converted, pending binary upload:** The original workflow, paired waveform/spectrogram comparisons for the three recording variants, and mixed-audio visualization are prepared for the repository's `figures/` folder. Their filenames and original captions are documented in the [figure inventory](figures/README.md) and [manifest](figures/figure_manifest.csv). Once committed, the full nine-figure set can be incorporated into the [portfolio showcase](https://beingrazuahmed.github.io/projects.html#fastica-audio-project).
 
 For local figure importing, see `python scripts/import_figures.py --help` (Pillow is an optional dependency). The official [publisher article/DOI](https://doi.org/10.1002/eng2.70575) remains the source for the full paper; no duplicate publisher PDF is included.
 
@@ -83,7 +89,7 @@ For local figure importing, see `python scripts/import_figures.py --help` (Pillo
 
 ```text
 .
-├── figures/                       # figure guide + nine-figure manifest; PNGs pending
+├── figures/                       # figure guide + manifest, Figure 9; Figures 1–8 pending
 ├── notebooks/FastICA_Audio_Source_Separation.ipynb
 ├── scripts/
 │   ├── generate_demo_audio.py     # produces three synthetic, non-speech WAVs locally
