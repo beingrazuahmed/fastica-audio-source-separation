@@ -1,0 +1,40 @@
+# Private participant audio and generated artifacts
+Raw Data/
+Data/
+demo_audio/
+outputs_bss/
+**/Raw Data/
+**/Data/
+**/demo_audio/
+**/outputs_bss/
+**/*.wav
+**/*.mp3
+**/*.flac
+**/*.m4a
+**/*.aac
+**/*.ogg
+**/*.aiff
+**/*.aif
+**/*.wma
+**/*.opus
+**/*.mp4
+**/*.webm
+# Original HTML exports may embed base64 audio and should not be committed
+*.html
+*.htm
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+.env
+.env.*
+.DS_Store
+.vscode/
+.idea/
+*.log
+*.tmp

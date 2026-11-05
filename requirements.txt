@@ -1,0 +1,11 @@
+# Python 3.12 recommended. Versions derived from the original study environment where known.
+numpy==2.0.0
+scikit-learn==1.7.2
+librosa==0.11.0
+mir_eval==0.8.2
+scipy>=1.11,<2
+matplotlib>=3.8,<4
+soundfile>=0.12,<1
+tqdm>=4.66,<5
+ipython>=8.12,<10
+jupyterlab>=4,<5

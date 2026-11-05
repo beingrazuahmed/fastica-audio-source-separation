@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use the code, please cite this repository; if you use the research methods or findings, cite the preferred peer-reviewed article as well."
+type: software
+title: "FastICA Audio Source Separation: Reproducible Research Code and Evaluation"
+authors:
+  - family-names: "Ahmed"
+    given-names: "Md. Razu"
+    orcid: "https://orcid.org/0009-0001-8646-1881"
+    email: "razuahmed038@gmail.com"
+repository-code: "https://github.com/beingrazuahmed/fastica-audio-source-separation"
+url: "https://beingrazuahmed.github.io/projects.html#fastica-audio-project"
+license: MIT
+version: "1.0.0"
+date-released: 2026-11-05
+keywords:
+  - blind source separation
+  - FastICA
+  - audio
+  - PCA
+  - NMF
+  - SDR
+  - SIR
+  - SAR

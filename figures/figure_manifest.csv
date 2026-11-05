@@ -1,0 +1,10 @@
+figure_number,input_filename,output_png,published_caption,recording_variant,alignment_mapping
+1,Figure 1.tif,fig01-workflow.png,An end-to-end pipeline for audio source separation with FastICA and two baselines (PCA and NMF).,Workflow,
+2,Figure 2.tif,fig02-waveform-male-male.png,Waveform of sample recording 1 (male+ male) and separated source 2 (male+ male).,Male + Male,Recording 1 → separated source 2
+3,Figure 3.tif,fig03-waveform-female-female.png,Waveform of sample recording 2 (female+female) and separated source 3 (female+female).,Female + Female,Recording 2 → separated source 3
+4,Figure 4.tif,fig04-waveform-male-female.png,Waveform of sample recording 3 (male+female) and separated source 1 (male+female).,Male + Female,Recording 3 → separated source 1
+5,Figure 5.tif,fig05-spectrogram-male-male.png,Spectrogram of sample recording 1 (male+ male) and separated source 2 (male+ male).,Male + Male,Recording 1 → separated source 2
+6,Figure 6.tif,fig06-spectrogram-female-female.png,Waveform of sample recording 2 (female+female) and separated source 3 (female+female).,Female + Female,Recording 2 → separated source 3
+7,Figure 7.tif,fig07-spectrogram-male-female.png,Spectrogram of sample recording 3 (male+female) and separated source 1 (male+female).,Male + Female,Recording 3 → separated source 1
+8,Figure 8.tif,fig08-mixed-audio.png,Waveform and spectrogram of mixed audio.,Mixed audio,
+9,Figure 9.tif,fig09-bss-comparison.png,"BSS comparison across methods: Mean±SD of SDR, SIR, and SAR over 10 runs.",Method comparison,
