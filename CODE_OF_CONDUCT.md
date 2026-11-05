@@ -1,0 +1,3 @@
+# Code of conduct
+
+Contributors and users should communicate respectfully and constructively. Harassment, discriminatory language, threats, and disclosure of other people's private recordings or identifying information are not acceptable. Discuss technical disputes using evidence and reproducible, permissioned examples. Report serious conduct/privacy concerns privately to **razuahmed038@gmail.com**. The maintainer may moderate repository issues, discussions and contributions when necessary.
